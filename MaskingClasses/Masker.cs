@@ -12,6 +12,8 @@ namespace MaskingClasses
         {
             char[] chArr = input.ToCharArray();
 
+            if (chArr.Length <= 4) return String.Empty;
+
             int index = (chArr.Length - 4);
 
             for(var x =0; x < index; x++)

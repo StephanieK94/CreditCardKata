@@ -8,15 +8,29 @@ namespace MaskingTests
     public class UnitTestsForMasking
     {
         [TestMethod]
-        public void ReturnsEmptyString()
+        public void ReturnsMaskedString()
         {
-            string input = "12345";
+            var expected = "#2345";
+            var input = "12345";
 
-            Masker ms = new Masker();
+            var ms = new Masker();
 
-            string actual = ms.MaskSecureNumbers(input);
+            var actual = ms.MaskSecureNumbers(input);
 
-            Assert.AreEqual("#2345", actual);
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void ReturnsEmptyStringWhenGivenShorterThan4()
+        {
+            var expected = String.Empty;
+            var input = "1234";
+
+            var ms = new Masker();
+
+            var actual = ms.MaskSecureNumbers(input);
+
+            Assert.AreEqual(expected, actual);
         }
     }
 }
