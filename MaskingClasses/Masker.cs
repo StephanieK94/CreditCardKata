@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MaskingClasses
 {
@@ -14,9 +10,9 @@ namespace MaskingClasses
 
             if (chArr.Length <= 4) return String.Empty;
 
-            int index = (chArr.Length - 4);
+            int stopIndex = (chArr.Length - 4);
 
-            for(var x =0; x < index; x++)
+            for(var x =0; x < stopIndex; x++)
             {
                 chArr[x] = '#';
             }
