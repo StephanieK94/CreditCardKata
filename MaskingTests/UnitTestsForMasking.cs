@@ -5,10 +5,10 @@ using MaskingClasses;
 namespace MaskingTests
 {
     [TestClass]
-    public class UnitTest1
+    public class UnitTestsForMasking
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ReturnsEmptyString()
         {
             string input = "12345";
 
@@ -16,7 +16,7 @@ namespace MaskingTests
 
             string actual = ms.MaskSecureNumbers(input);
 
-            Assert.AreEqual("", actual);
+            Assert.AreEqual("#2345", actual);
         }
     }
 }
