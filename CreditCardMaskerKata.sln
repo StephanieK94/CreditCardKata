@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaskingTests", "MaskingTests\MaskingTests.csproj", "{2C3FABD5-F49C-411E-A62B-D0F5A0482868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaskingClasses", "MaskingClasses\MaskingClasses.csproj", "{ADC72965-2214-415C-8247-375370D11E5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C3FABD5-F49C-411E-A62B-D0F5A0482868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C3FABD5-F49C-411E-A62B-D0F5A0482868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C3FABD5-F49C-411E-A62B-D0F5A0482868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C3FABD5-F49C-411E-A62B-D0F5A0482868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC72965-2214-415C-8247-375370D11E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC72965-2214-415C-8247-375370D11E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC72965-2214-415C-8247-375370D11E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC72965-2214-415C-8247-375370D11E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3486057C-7165-466A-8F2E-43651BDB0F03}
+	EndGlobalSection
+EndGlobal
